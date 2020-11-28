@@ -15,6 +15,7 @@ button {
 	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
 }
 
+
 /*  Navigation */
 .navbar-brand > img {
 	max-height: 40px;
@@ -30,13 +31,41 @@ button {
 	color: #292b2c;
 	font-weight: 600;
 	text-transform: uppercase;
+	padding: 20px;
+	margin: 10px;
+	
+	
 
 	/*  Challenge: can you make the navigation links orange on hover? */
 }
 
+/*.nav-link-nav {
+	color: #292b2c;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 20px;
+	margin: 10px;
+}*/
+
+
+
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
+button.donate-now, .donate {
+	background-color: blue;
+}
 
+button.donate:hover, .donate-now:hover {
+	background-color: rgb(219, 126, 49);
+}
+
+ button.volunteer {
+	color: #ce5f31;
+}
+
+button.volunteer:hover {
+	background-color: springgreen;
+}
 
 /* Alert */
 .alert {
