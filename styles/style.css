@@ -33,6 +33,7 @@ button {
 	text-transform: uppercase;
 	padding: 20px;
 	margin: 10px;
+	border: 1px solid transparent;
 	
 	
 
@@ -52,15 +53,15 @@ button {
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
 button.donate-now, .donate {
-	background-color: blue;
+	background-color: #ce5f31;
 }
 
 button.donate:hover, .donate-now:hover {
-	background-color: rgb(219, 126, 49);
+	background-color: rgb(13, 101, 233);
 }
 
  button.volunteer {
-	color: #ce5f31;
+	color: red;
 }
 
 button.volunteer:hover {
@@ -161,6 +162,13 @@ button.volunteer:hover {
 }
 
 /* Media queries */
+
+@media screen and (max-width: 374px) {
+	h1 {
+		font-size: 2rem;
+	}
+}
+
 
 @media screen and (min-width: 992px) {
 
