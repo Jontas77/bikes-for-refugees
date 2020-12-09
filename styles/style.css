@@ -35,24 +35,21 @@ button {
 	margin: 10px;
 	border: 1px solid transparent;
 	
-	
-
 	/*  Challenge: can you make the navigation links orange on hover? */
 }
 
-/*.nav-link-nav {
-	color: #292b2c;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding: 20px;
-	margin: 10px;
-}*/
 
 
 
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
-button.donate-now, .donate {
+.donate-now {
+	background-color: #ce5f31;
+	height: 40px;
+	margin-top: 18px;
+}
+
+.donate {
 	background-color: #ce5f31;
 }
 
@@ -96,7 +93,36 @@ button.volunteer:hover {
 /* Jumbotron */
 .jumbotron {
 	border-radius: 0;
+	margin-bottom: -0.5rem;
 }
+
+/* Info Boxes*/
+.info-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.info-box1, .info-box2, .info-box3 {
+	height: 120px;
+	width: 120px;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	background-color: #ddd;
+	border: 2px solid darkgray;
+	border-radius: 2px;
+	text-align: center;
+	font-weight: 600;
+	
+}
+
+.info-box2 {
+	padding-top: 40px;
+}
+
+
+
 
 /* Headings */
 .heading-underline {
@@ -121,6 +147,21 @@ button.volunteer:hover {
 }
 
 /* Article */
+.article-container {
+	display: flex;
+}
+
+div.article1 {
+	width: 140%;
+    margin-right: -7rem;
+    padding: 1rem;
+}
+
+div.article2 {
+	padding: 1rem;
+    margin-left: 8rem;
+}
+
 .article {
 	margin-bottom: 2em;
 }
@@ -148,6 +189,14 @@ button.volunteer:hover {
 
 .article__read-more:last-child {
 	margin-bottom: 0;
+}
+
+.article-container .info:first-child {
+	background-color: #ddd;
+}
+
+.article-container .info:last-child {
+	border: 1px solid #ddd;
 }
 
 /* Footer */
